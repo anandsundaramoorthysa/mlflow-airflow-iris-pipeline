@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Apache Airflow (local instance lives inside the project tree)
+.airflow/
+logs/
+
+# MLflow local tracking store
+mlruns/
+mlflow.db
+mlflow.db-*
+
+# Generated data and models
+data/*.csv
+models/*.joblib
+models/*_params.json
+
+# Keep the empty directories around
+!data/.gitkeep
+!models/.gitkeep
+
+# Environment / secrets
+.env
+
+# Logs
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

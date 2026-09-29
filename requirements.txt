@@ -1,0 +1,18 @@
+# Direct project dependencies (pinned to the versions this repo was tested with).
+#
+# Apache Airflow must be installed with its official constraints file, otherwise
+# pip may resolve an unusable combination. See the README for the exact command:
+#
+#   pip install -r requirements.txt \
+#     --constraint https://raw.githubusercontent.com/apache/airflow/constraints-3.3.2/constraints-3.12.txt
+#
+# Replace "3.12" with your Python version if it differs.
+
+apache-airflow==3.3.2
+mlflow==3.16.1
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+joblib==1.6.0
+python-dotenv==1.2.3
+pytest==9.1.1
